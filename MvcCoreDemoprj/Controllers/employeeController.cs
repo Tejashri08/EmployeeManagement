@@ -5,8 +5,9 @@ namespace MvcCoreDemoprj.Controllers
 {
     public class employeeController : Controller
     {
+        //demo
         private readonly MVCAssigementContext context;
-
+        
         public employeeController(MVCAssigementContext context)
         {
             this.context = context;
